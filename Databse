@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Goodbye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do?",
+        "Tell me your abilities",
+        "What are your features?"
+      ],
+      "responses": [
+        "I can provide information about our products, answer questions, and assist with various inquiries.",
+        "My capabilities include answering your questions, providing information, and offering assistance. Feel free to ask anything!",
+        "I'm here to help you with information, answer your questions, and provide assistance with any queries you have."
+      ]
+    },
+    {
+      "tag": "chemistry_intro",
+      "patterns": [
+        "Tell me about chemistry",
+        "What is chemistry?",
+        "Introduce me to chemistry"
+      ],
+      "responses": [
+        "Chemistry is the branch of science that explores the composition, structure, properties, and behavior of matter. It is the study of substances and how they interact with each other. Chemistry is essential in understanding the world around us and has numerous applications in various fields, from medicine to industry.",
+        "Chemistry is the science that investigates the properties and transformations of matter. It helps us understand the nature of different substances, the processes that occur in the natural world, and the creation of new materials. It's a fascinating subject with a wide range of applications.",
+        "Chemistry is the study of matter, its properties, and the changes it undergoes. It examines the composition and behavior of substances, from the smallest particles to the largest molecules. Chemistry plays a crucial role in our daily lives and in scientific advancements."
+      ]
+    },
+    {
+      "tag": "chemical_elements",
+      "patterns": [
+        "Tell me about chemical elements",
+        "What are chemical elements?",
+        "Explain the periodic table"
+      ],
+      "responses": [
+        "Chemical elements are the simplest substances and the building blocks of matter. Each element consists of atoms with a unique number of protons. The periodic table organizes elements based on their atomic number and chemical properties, providing a wealth of information about each element's characteristics.",
+        "The periodic table is a tabular arrangement of chemical elements, organized by their atomic number, electron configuration, and recurring chemical properties. It's a powerful tool for understanding the relationships between elements and predicting their behavior in chemical reactions.",
+        "Chemical elements are the purest forms of matter, each with its distinct properties. The periodic table classifies elements into rows and columns, revealing trends and patterns in their characteristics. It's a fundamental reference for chemists and scientists to explore the properties of elements."
+      ]
+    },
+    {
+      "tag": "chemical_reactions",
+      "patterns": [
+        "Explain chemical reactions",
+        "Tell me about chemical changes",
+        "How do chemical reactions work?"
+      ],
+      "responses": [
+        "Chemical reactions involve the breaking and forming of chemical bonds between atoms or molecules. During a reaction, substances called reactants transform into products. This process can release or absorb energy and result in various changes, from color shifts to the production of new substances.",
+        "Chemical reactions are processes where substances interact to produce new substances with different properties. They follow the law of conservation of mass, which states that the total mass of reactants equals the total mass of products. Reactions are fundamental to understanding how matter behaves and changes.",
+        "Chemical reactions are the heart of chemistry. They occur when substances collide and rearrange their atoms to form new substances. Reactions can release or absorb energy, leading to various observable changes. They are essential for everything from combustion to biological processes."
+      ]
+    },
+    {
+      "tag": "chemical_bonds",
+      "patterns": [
+        "Tell me about chemical bonds",
+        "What are chemical bonds?",
+        "Explain bonding in chemistry"
+      ],
+      "responses": [
+        "Chemical bonds are forces that hold atoms together in molecules. There are several types of chemical bonds, including ionic bonds, covalent bonds, and metallic bonds. These bonds result from the attraction between the electrons in the outermost energy levels of atoms.",
+        "Chemical bonds are connections between atoms in molecules. They are formed when atoms share or transfer electrons to achieve stable electron configurations. Different types of bonds have varying strengths and properties, impacting the behavior of substances.",
+        "Chemical bonds are the connections that bind atoms together in compounds. They arise from the interactions between electrons in the outermost energy levels of atoms. There are different types of bonds, each with its unique characteristics and roles in chemistry."
+      ]
+    },
+    {
+      "tag": "chemical_equations",
+      "patterns": [
+        "Explain chemical equations",
+        "How to write chemical equations",
+        "Tell me about balancing equations"
+      ],
+      "responses": [
+        "Chemical equations are symbolic representations of chemical reactions. They show the reactants on the left side and the products on the right side. Balancing equations ensures that the number of atoms of each element is the same on both sides, following the law of conservation of mass.",
+        "Writing chemical equations is a way to describe chemical reactions in a concise form. Balancing equations is crucial to ensure that matter is conserved during the reaction. It involves adjusting coefficients to make the number of atoms the same on both sides of the equation.",
+        "Chemical equations provide a way to represent the changes that occur in chemical reactions. Balancing
